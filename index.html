@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
-<body>
+<body onload="typeAnimation()">
     <div class="nav">
         <div class="logo">
             <img src="image/MediLeaf-removebg-preview.png" alt="" />
@@ -18,17 +18,15 @@
         <div class="left">
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#Service">Service</a></li>
                 <li><a href="About.html">About</a></li>
-                <li><a href="#Doctor">Doctor</a></li>
+                <li><a href="Doctor.html">Doctor</a></li>
                 <li><a href="BookNow.html">Book</a></li>
                 <li><a href="Contact.html">Contact</a></li>
-                <li><a href="#Blog">Blog</a></li>
             </ul>
             <div class="menu"><i class="fa-solid fa-bars"></i></div>
         </div>
     </div>
-    <div class="home" id="Home">
+    <div class="home">
         <div class="homesubContainer">
             <img src="image/homeimage-removebg-preview.png" alt="" class="home-Image" />
             <div style="flex:.2;"></div>
@@ -70,7 +68,7 @@
     </div>
 
     <!-- -----------------------our-service----------------------- -->
-    <div class="section2" id="Service">
+    <div class="section2">
         <h1 class="heading">OUR <span>SERVICE</span></h1>
         <div class="services">
             <div class="service-box">
@@ -130,10 +128,10 @@
         </div>
     </div>
     <!-- -----------------------About-us------------------- -->
-    <div class="section3" id="About">
+    <div class="section3">
         <h1 class="heading-About"><span>ABOUT </span>US</h1>
         <div class="About">
-            <img src="image/Public health-bro.png" alt="" />
+            <img src="image/Public_health-bro-removebg-preview.png" alt="" />
             <div class="about-comtent">
                 <h1>
                     We Take Care Of Your <br />
@@ -152,101 +150,121 @@
                     healthcare; we cultivate partnerships in your wellness journey. .
                 </p>
                 </p>
-               <a href="About.html"> <button class="button">Learn more<span><i class="bx bxs-chevron-right"></i></span></button></a>
+                <a href="About.html"> <button class="button">Learn more<span><i
+                                class="bx bxs-chevron-right"></i></span></button></a>
             </div>
         </div>
     </div>
 
     <!-- ----------------------Our-Doctors------------------------ -->
-    <div class="section4" id="Doctor">
+    <div class="section4">
         <h1 class="heading-doctor">OUR <span>DOCTORS</span></h1>
         <div class="our-doctor">
             <div class="doctor-box">
                 <img src="image/istockphoto-1372002650-170667a.webp" alt="" />
-                <h4>john Deo</h4>
-                <p>Expert Doctor</p>
+                <h4>Dr.Veranda Tanumihardja</h4>
+                <p>Pulmonary</p>
                 <div class="social-icons">
                     <a href=""><img src="image/icons8-facebook-50.png" alt="" /></a>
                     <a href=""> <img src="image/icons8-insta-24.png" alt="" /></a>
                     <a href=""><img src="image/icons8-linkedin-50 (1).png" alt="" /></a>
                     <a href=""><img src="image/icons8-twitter-30.png" alt="" /></a>
                 </div>
+                <a href="DoctorSpecification.html?greeting=0"><button class="button">
+                        Learn more<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
             <div class="doctor-box">
-                <img src="image/istockphoto-1319031310-612x612.jpg" alt="" />
-                <h4>john Deo</h4>
-                <p>Expert Doctor</p>
+                <img src="image/istockphoto-1421919800-170667a.webp" alt="" />
+                <h4>Dr. Kathryn Wood</h4>
+                <p>Pulmonary</p>
                 <div class="social-icons">
                     <a href=""><img src="image/icons8-facebook-50.png" alt="" /></a>
                     <a href=""> <img src="image/icons8-insta-24.png" alt="" /></a>
                     <a href=""><img src="image/icons8-linkedin-50 (1).png" alt="" /></a>
                     <a href=""><img src="image/icons8-twitter-30.png" alt="" /></a>
                 </div>
+                <a href="DoctorSpecification.html?greeting=1"><button class="button">
+                        Learn more<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
             <div class="doctor-box">
-                <img src="image/istockphoto-1372002650-170667a.webp" alt="" />
-                <h4>john Deo</h4>
-                <p>Expert Doctor</p>
+                <img src="image/istockphoto-1425469911-170667a.webp" alt="" />
+                <h4>Dr. Hooman Azmi</h4>
+                <p>Dental</p>
                 <div class="social-icons">
                     <a href=""><img src="image/icons8-facebook-50.png" alt="" /></a>
                     <a href=""> <img src="image/icons8-insta-24.png" alt="" /></a>
                     <a href=""><img src="image/icons8-linkedin-50 (1).png" alt="" /></a>
                     <a href=""><img src="image/icons8-twitter-30.png" alt="" /></a>
                 </div>
+                <a href="DoctorSpecification.html?greeting=2"><button class="button">
+                        Learn more<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
             <div class="doctor-box">
-                <img src="image/istockphoto-1372002650-170667a.webp" alt="" />
-                <h4>john Deo</h4>
-                <p>Expert Doctor</p>
+                <img src="image/OIP (1).jpeg" alt="" />
+                <h4>Dr. Peter Parker</h4>
+                <p>Neurologist</p>
                 <div class="social-icons">
                     <a href=""><img src="image/icons8-facebook-50.png" alt="" /></a>
                     <a href=""> <img src="image/icons8-insta-24.png" alt="" /></a>
                     <a href=""><img src="image/icons8-linkedin-50 (1).png" alt="" /></a>
                     <a href=""><img src="image/icons8-twitter-30.png" alt="" /></a>
-                </div>
+                </div><a href="DoctorSpecification.html?greeting=3"><button class="button">
+                        Learn more<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
+
             <div class="doctor-box">
                 <img src="image/istockphoto-1470505351-170667a.webp" alt="" />
-                <h4>john Deo</h4>
-                <p>Expert Doctor</p>
+                <h4>Dr. Stewart Adams</h4>
+                <p>Xray</p>
                 <div class="social-icons">
                     <a href=""><img src="image/icons8-facebook-50.png" alt="" /></a>
                     <a href=""> <img src="image/icons8-insta-24.png" alt="" /></a>
                     <a href=""><img src="image/icons8-linkedin-50 (1).png" alt="" /></a>
                     <a href=""><img src="image/icons8-twitter-30.png" alt="" /></a>
-                </div>
+                </div><a href="DoctorSpecification.html?greeting=4"><button class="button">
+                        Learn more<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
+
             <div class="doctor-box">
-                <img src="image/istockphoto-1416945607-170667a.webp" alt="" />
-                <h4>john Deo</h4>
-                <p>Expert Doctor</p>
+                <img src="image/OIP (2).jpeg" alt="" />
+                <h4>Dr. Peter Parker</h4>
+                <p>Neurologist</p>
                 <div class="social-icons">
                     <a href=""><img src="image/icons8-facebook-50.png" alt="" /></a>
                     <a href=""> <img src="image/icons8-insta-24.png" alt="" /></a>
                     <a href=""><img src="image/icons8-linkedin-50 (1).png" alt="" /></a>
                     <a href=""><img src="image/icons8-twitter-30.png" alt="" /></a>
-                </div>
+                </div><a href="DoctorSpecification.html?greeting=5"><button class="button">
+                        Learn more<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
         </div>
     </div>
 
     <!-- -----------------------Book---------------------- -->
-    <div class="section5" id="Book">
+    <div class="section5">
         <h1 class="heading-book">BOOK <span>NOW</span></h1>
         <div class="book">
             <img src="image/Gut_health-bro-removebg-preview.png" alt="" />
             <div class="booking-content">
                 <h1>Stay Happy</h1>
-              <p>Visit our user-friendly hospital website to easily book appointments online. Streamlined process, convenient scheduling, and quick confirmations. Your health matters to us – book your appointment hassle-free today!</p> 
-              <a href="BookNow.html"><button class="button">
-                Book Now<span><i class="bx bxs-chevron-right"></i></span>
-            </button></a> 
+                <p>Visit our user-friendly hospital website to easily book appointments online. Streamlined process,
+                    convenient scheduling, and quick confirmations. Your health matters to us – book your appointment
+                    hassle-free today!</p>
+                <a href="BookNow.html"><button class="button">
+                        Book Now<span><i class="bx bxs-chevron-right"></i></span>
+                    </button></a>
             </div>
         </div>
     </div>
 
     <!-- -------------------Client's Review----------------------- -->
-    <div class="section6" id="Review">
+    <div class="section6">
         <h1 class="heading-client">CLIENT'S <span>Review</span></h1>
         <div class="review">
             <div class="review-box">
@@ -311,57 +329,8 @@
             </div>
         </div>
     </div>
-
-    <!-- -------------------- Blog ------------------------- -->
-    <div class="section7" id="Blog">
-        <h1 class="heading-blog">OUR <span>BLOG</span></h1>
-        <div class="blog">
-            <div class="blog-box">
-                <img src="image/istockphoto-1319031310-612x612.jpg" alt="" />
-                <div class="user-detail-blog">
-                    <a href=""><img src="image/icons8-date-48.png" alt="" />1 May 2023</a>
-                    <a href=""><img src="image/icons8-user-24.png" alt="" />Abhilash</a>
-                </div>
-                <h3>Blog Title Goes Here</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quo!
-                </p>
-                <button class="button">
-                    Read more<span><i class="bx bxs-chevron-right"></i></span>
-                </button>
-            </div>
-            <div class="blog-box">
-                <img src="image/istockphoto-1319031310-612x612.jpg" alt="" />
-                <div class="user-detail-blog">
-                    <a href=""><img src="image/icons8-date-48.png" alt="" />1 May 2023</a>
-                    <a href=""><img src="image/icons8-user-24.png" alt="" />Abhilash</a>
-                </div>
-                <h3>Blog Title Goes Here</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quo!
-                </p>
-                <button class="button">
-                    Read more<span><i class="bx bxs-chevron-right"></i></span>
-                </button>
-            </div>
-            <div class="blog-box">
-                <img src="image/istockphoto-1319031310-612x612.jpg" alt="" />
-                <div class="user-detail-blog">
-                    <a href=""><img src="image/icons8-date-48.png" alt="" />1 May 2023</a>
-                    <a href=""><img src="image/icons8-user-24.png" alt="" />Abhilash</a>
-                </div>
-                <h3>Blog Title Goes Here</h3>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quo!
-                </p>
-                <button class="button">
-                    Read more<span><i class="bx bxs-chevron-right"></i></span>
-                </button>
-            </div>
-        </div>
-    </div>
     <!-- ------------------------ site-information---------------------- -->
-    <div class="section8" id="Contact">
+    <div class="section8 footercolor">
         <div class="contact">
             <div class="contact-box">
                 <h3>Quick Links</h3>
@@ -383,7 +352,7 @@
                 <a href=""><img src="image/icons8-sort-right-24.png" alt="" />Ambluance
                     Service</a>
             </div>
-           
+
             <div class="contact-box">
                 <h3>Follow Us</h3>
                 <a href=""><img src="image/icons8-facebook-50.png" alt="" />Facebook</a>
@@ -399,7 +368,7 @@
         </div>
     </div>
 
-    
+
     <script src="script.js"></script>
 </body>
 

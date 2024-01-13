@@ -24,11 +24,10 @@ initializeApp(firebaseConfig);
 
 // #get ref to database service
 //   firebaseDb
-const db = getFirestore();
+export const db = getFirestore();
 
-document
-    .getElementById("submitButton")
-    .addEventListener("click", async function (e) {
+
+document.getElementById("submitButton").addEventListener("click", async function (e) {
         e.preventDefault();
         let RegexNumber =
             /^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/;
@@ -97,6 +96,7 @@ document
         document.getElementById("bookNow").reset();
     });
 
+// Checking Error
 function checkError(id, error) {
     error != ""
         ? (document.getElementById(id).innerHTML = error)
